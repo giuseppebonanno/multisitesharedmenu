@@ -1,8 +1,8 @@
 === Multisite Shared Menu ===
 Contributors: ben.greeley, Third Boxcar
 Tags: widget, menu, menus, multisite, navigation
-Requires at least: 3.9
-Tested up to: 4.1
+Requires at least: 4.6
+Tested up to: 4.7
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -27,6 +27,10 @@ Plugin is intended for WordPress Multisite environment for plugin to function pr
 1. Multisite Shared Menu options menu
 
 == Changelog ==
+<h3>1.2.1</h3>
+Fix WP admin bar break
+Fix deprecatd wp_get_sites()
+
 <h3>1.2</h3>
 Multiple menu selection! You can now include one or more menus from your master menu site.
 
