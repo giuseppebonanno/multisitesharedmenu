@@ -23,16 +23,12 @@
 
 			echo '<option value="">-- Select --</option>';
 			foreach( $blogList as $blogTemp ) {
-				if( $blogTemp['blog_id'] != get_current_blog_id() ) {
-
-					echo '<option value="'.$blogTemp['blog_id'].'"';
-
-					if( esc_attr( get_option('mfs_override_site_id') ) == $blogTemp['blog_id'] ) {
+				if( $blogTemp->blog_id != get_current_blog_id() ) {
+					echo '<option value="'.$blogTemp->blog_id.'"';
+					if( esc_attr( get_option('mfs_override_site_id') ) == $blogTemp->blog_id ) {
 						echo ' selected ';
 					}
-
-					echo '>'.$blogTemp['domain']. $blogTemp['path'].'</option>';
-
+					echo '>'.$blogTemp->domain. $blogTemp->path.'</option>';
 				}
 			}
 
