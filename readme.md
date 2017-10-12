@@ -1,27 +1,12 @@
 <h1> Multisite Shared Menu </h1>
-Contributors: ben.greeley, Third Boxcar, Giuseppe Bonanno
+<p>Contributors: ben.greeley, Third Boxcar, Giuseppe Bonanno, Bradford Nelson, slushman</p>
+<p>Requires at least: 4.6</p>
+<p>Tested up to: 4.8.2</p>
+<p>Use navigation menus from another multisite blog on the same network to achieve a universal common navigation area.</p>
+<p>Allows users in a WordPress multisite network pull in menus from a main site in order to achieve universal navigation or shared navigation without needing to manually recreate menus. </p>
+<p>Plugin is intended for WordPress Multisite environment for plugin to function properly and use the same theme to ensure menu name compatibility.</p>
 
-Tags: widget, menu, menus, multisite, navigation
-
-Requires at least: 4.6
-
-Tested up to: 4.7
-
-Stable tag: 1.1
-
-License: GPLv2 or later
-
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Use navigation menus from another multisite blog on the same network to achieve a universal common navigation area.
-
-== Description ==
-
-Allows users in a WordPress multisite network pull in menus from a main site in order to achieve universal navigation or shared navigation without needing to manually recreate menus. 
-
-Plugin is intended for WordPress Multisite environment for plugin to function properly and use the same theme to ensure menu name compatibility.
-
-== Installation ==
+<h2>Installation </h2>
 <ul>
 <li>Copy the folder into your /wp-content/plugins directory.</li>
 <li>Activate for the sites you wish to use plugin on. NOTE: Should not be activated on master menu site, and all sites sharing menus should use the same theme.</li>
