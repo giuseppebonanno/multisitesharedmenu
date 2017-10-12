@@ -1,10 +1,10 @@
 <?php
 /*
  * Plugin Name:       Multisite Master Shared Menu
- * Plugin URI:        http://www.bengreeley.com/menufromsite
+ * Plugin URI:        https://github.com/giuseppebonanno/multisitesharedmenu
  * Description:       Allows users in a WordPress multisite network pull in a menu from another site in order to achieve a universal navigation or shared navigation without needing to manually recreate menus. Site is required to be installed on WordPress Multisite environment.
- * Version:           1.2.3
- * Author:            Ben Greeley
+ * Version:           1.2.4
+ * Author:            Ben Greeley edited by G.Bonanno
  * Author URI:        http://www.bengreeley.com
  */
  
